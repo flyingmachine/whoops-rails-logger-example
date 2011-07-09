@@ -1,4 +1,5 @@
 WhoopsRailsNotifierExample::Application.routes.draw do
+  resource  :home
   resources :users
-  root :to => "users#index"
+  root :to => "home#show"
 end

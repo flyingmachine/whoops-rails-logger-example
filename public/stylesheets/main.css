@@ -1,0 +1,12 @@
+body {
+  background:#8598b6;
+  margin:0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+  padding:20px;
+  width:1024px;
+  margin:0 auto;
+  background:white;
+}

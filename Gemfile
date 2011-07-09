@@ -6,6 +6,7 @@ gem 'rails', '3.0.8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'whoops_rails_notifier'
+gem 'haml'
 
 group :development, :test do
   gem 'sqlite3'
