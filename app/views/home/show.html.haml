@@ -1,4 +1,9 @@
-%h1 Whoops Rails Notifier Example
+%p Use the links below to create notifications.
 
 %ul
-  %li= link_to 'Broken users#index', users_path
+  %li
+    = link_to 'Broken users#index', users_path
+    Visit a controller action which raises an error
+  %li
+    = link_to 'Custom Notification', new_notification_path
+    Enter custom notification details

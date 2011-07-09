@@ -1,0 +1,17 @@
+%h2 Custom Notification Details
+
+%p 
+  Enter YAML into the field below. After you submit, view the latest event at
+  = link_to "the whoops example server", "http://whoops-example.heroku.com"
+  and you'll see what you entered in the "details" section.
+
+%p For some reason haml messes up 
+= form_tag notifications_path do
+  - if params[:details]
+    %textarea{:name => "details"}= params[:details]
+  - else
+    %textarea{:name => "details"}
+      :preserve        
+        name: [Moe, Syzlak]
+        email: moe@moestavern.com        
+  %input{:type => "submit"}

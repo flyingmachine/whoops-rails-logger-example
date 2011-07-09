@@ -7,6 +7,7 @@ gem 'rails', '3.0.8'
 
 gem 'whoops_rails_notifier'
 gem 'haml'
+gem 'faker'
 
 group :development, :test do
   gem 'sqlite3'
