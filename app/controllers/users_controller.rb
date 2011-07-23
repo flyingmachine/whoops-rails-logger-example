@@ -1,5 +1,9 @@
-class UsersController < ApplicationController
-  def index
-    raise "Whoa it's an exception!"
+class UsersController < ApplicationController  
+  def new
+    @user = User.new
+  end
+  
+  def create
+    User.create(params[:user])
   end
 end

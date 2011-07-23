@@ -1,0 +1,21 @@
+%h2 New User
+
+%p Submitting this form will result in an exception. When you view the exception, you should see a stack trace, the parameters sent, and other variables.
+
+= form_for @user do |f|
+  %table
+    %tr
+      %td
+        %label{:for => "user_first_name"} First Name
+      %td= f.text_field :first_name
+    %tr
+      %td
+        %label{:for => "user_last_name"} Last Name
+      %td= f.text_field :last_name
+    %tr
+      %td
+        %label{:for => "user_username"} Username
+      %td= f.text_field :username
+    %tr
+      %td
+      %td= f.submit "Create User"

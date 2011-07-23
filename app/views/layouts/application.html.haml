@@ -9,8 +9,13 @@
     #wrapper
       %h1 Whoops Rails Notifier Example
       = yield
-      %p== All notifications get sent to #{link_to "the whoops example server", "http://whoops-example.heroku.com"}. The service is "whoopsrailsnotifierexample".
       
       #footer
-        %p= link_to "Github repo for the whoops rails notifier", "https://github.com/flyingmachine/whoops_rails_notifier"
-        %p= link_to "Github repo for this site, whoops-rails-notifier-example.heroku.com", "https://github.com/flyingmachine/whoops-rails-notifier-example.heroku.com"
+        %p== All notifications get sent to #{link_to "the Whoops Engine example server", "http://whoops-example.heroku.com"}. The service is "whoopsrailsnotifierexample".
+        %p
+          Github repo for
+          = link_to  "Whoops Rails Notifier", "https://github.com/flyingmachine/whoops_rails_notifier"
+        %p
+          Github repo for
+          = link_to "this site", "https://github.com/flyingmachine/whoops-rails-notifier-example.heroku.com"
+          , whoops-rails-notifier-example.heroku.com
