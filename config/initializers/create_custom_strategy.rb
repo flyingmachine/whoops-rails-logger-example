@@ -1,4 +1,4 @@
-WhoopsNotifier.strategies[:custom] = lambda { |report, evidence|
+WhoopsLogger.strategies[:custom] = lambda { |report, evidence|
   report.message                = "Custom notification"
   report.event_type             = "notification"
   report.service                = "whoopsrailsnotifierexample"
