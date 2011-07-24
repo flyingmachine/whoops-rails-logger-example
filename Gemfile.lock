@@ -70,11 +70,11 @@ GEM
     treetop (1.4.9)
       polyglot (>= 0.3.1)
     tzinfo (0.3.29)
-    whoops_notifier (0.0.4)
+    whoops_logger (0.1.2)
       json
-    whoops_rails_notifier (0.0.2)
+    whoops_rails_logger (0.1.1)
       rails (~> 3)
-      whoops_notifier (= 0.0.4)
+      whoops_logger (= 0.1.2)
 
 PLATFORMS
   ruby
@@ -84,4 +84,4 @@ DEPENDENCIES
   haml
   rails (= 3.0.9)
   sqlite3
-  whoops_rails_notifier
+  whoops_rails_logger

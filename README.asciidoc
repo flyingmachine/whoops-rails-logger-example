@@ -1,0 +1,5 @@
+= Whoops Rails Logger Example
+
+This site is meant to demonstrate the https://github.com/flyingmachine/whoops_rails_logger[Whoops Rails Logger].
+
+See also https://github.com/flyingmachine/whoops[the Whoops repo on GitHub] for more information.
