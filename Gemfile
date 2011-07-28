@@ -11,6 +11,7 @@ gem 'faker'
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'ruby-debug'
 end
 
 
