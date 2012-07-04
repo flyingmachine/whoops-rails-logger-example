@@ -5,7 +5,6 @@
   = link_to "the whoops example server", "http://whoops-example.heroku.com"
   and you'll see what you entered in the "details" section.
 
-%p For some reason haml messes up 
 = form_tag notifications_path do
   - if params[:details]
     %textarea{:name => "details"}= params[:details]
